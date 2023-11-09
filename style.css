@@ -33,19 +33,27 @@
     .content-box {
         position: relative;
         z-index: 1;
-        color: white;
+        color: black;
         padding: 100px 0;
     }
     
     .content-box .container {
         position: relative;
     }
+
+    .custom-font-title {
+        color: white;
+    }
+    
+    .custom-background {
+        background-color: #212529; /* Replace this with your desired color code */
+    }
     
     /* Centered Text Styles */
     .content-box h1,
     .content-box p {
         text-align: center;
-        color: white; /* Set text color to white */
+        color: black; /* Set text color to white */
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add a text shadow for better readability */
     }
     
